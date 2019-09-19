@@ -1,0 +1,74 @@
+/*Remove underline from links*/
+a:link {
+    text-decoration: none;
+    color: #000;
+  }
+
+/*Add underline upon hover*/
+  a:hover {
+    text-decoration: underline;
+  }
+
+/*Removes color for visited pages*/
+  a:visited {
+    text-decoration: none;
+    color: #000;
+  } 
+
+.nav
+{
+    font-family: arial, sans-serif;
+    opacity: .75;
+}  
+
+div.nav1 ul li
+{
+    float: left;
+    font-size: 15px;
+    border: none;
+    padding: 8px 20px 0px 0px;
+    margin: 0px;
+
+    list-style-type: none;
+}
+#gapps
+{
+    height: 20px;
+    width: 20px;
+}
+
+div.nav2 ul li{
+    float: right;
+    font-size: 15px;
+    border: none;
+    padding: 8px 10px;
+    margin: 0px;
+
+    list-style-type: none;
+}
+
+div.logo img { 
+    display: block;
+    margin-top:178px;
+    margin-left: auto;
+    margin-right: auto;
+    width:17%; 
+    height:17%; 
+ }
+div.center
+{   
+    padding-top:175px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    padding; 170px;  
+}
+
+div.searchicon input
+{
+    background-color: white;
+    background-image: url('images/mic_icon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
